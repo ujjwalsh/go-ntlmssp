@@ -1,7 +1,9 @@
 sudo: false
 
 language: go
-
+arch:
+  - amd64
+  - ppc64le
 before_script:
   - go get -u golang.org/x/lint/golint
 
